@@ -1,0 +1,9 @@
+/* Generales */
+    /* navbar */
+        .orange{
+            background-color: rgb(255, 251, 0);
+        }
+/* Fuentes */
+html{
+    font-family: 'Ranchers', cursive;
+}
