@@ -2,7 +2,7 @@
 <html lang="es">
 @section('header')
     @include('layouts.head')
-    <body>
+    <body class="fondo">
     <header>
         @include('layouts.navegacion')
     </header>
