@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/inicio', 'ControladorRutas@inicio');
+Route::get('/inicio', 'habitacion@inicio');
+Route::get('/reservaciones/{id}', 'ControladorRutas@reservaciones');
+Route::get('/cerrar_sesion', 'ControladorRutas@cerrar_sesion');
 
 Auth::routes();
 
